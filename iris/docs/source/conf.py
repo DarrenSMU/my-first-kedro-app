@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# my_first_kedro_app documentation build
+# iris documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from my_first_kedro_app import __version__ as release
+from iris import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "my_first_kedro_app"
+project = "iris"
 author = "Kedro"
 
 # The short X.Y version.
@@ -52,8 +52,8 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx.ext.mathjax",
     "nbsphinx",
-    "myst_parser",
     "sphinx_copybutton",
+    "myst_parser",
 ]
 
 # enable autosummary plugin (table of contents for modules/classes/class
@@ -119,7 +119,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "my_first_kedro_appdoc"
+htmlhelp_basename = "irisdoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -147,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "my_first_kedro_app.tex",
-        "my_first_kedro_app Documentation",
+        "iris.tex",
+        "iris Documentation",
         "Kedro",
         "manual",
     )
@@ -161,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "my_first_kedro_app",
-        "my_first_kedro_app Documentation",
+        "iris",
+        "iris Documentation",
         [author],
         1,
     )
@@ -176,12 +176,12 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "my_first_kedro_app",
-        "my_first_kedro_app Documentation",
+        "iris",
+        "iris Documentation",
         author,
-        "my_first_kedro_app",
-        "Project my_first_kedro_app codebase.",
-        "Data-Science",
+        "iris",
+        "Project iris codebase.",
+        "Nearest-Neighbour",
     )
 ]
 
@@ -222,3 +222,4 @@ def setup(app):
     # add Kedro stylesheets
     for stylesheet in find_stylesheets():
         app.add_css_file(stylesheet)
+    # enable rendering RST tables in Markdown

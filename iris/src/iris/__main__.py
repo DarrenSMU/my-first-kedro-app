@@ -1,5 +1,5 @@
-"""My First Kedro App file for ensuring the package is executable
-as `my-first-kedro-app` and `python -m my_first_kedro_app`
+"""Iris file for ensuring the package is executable
+as `iris` and `python -m iris`
 """
 import importlib
 from pathlib import Path

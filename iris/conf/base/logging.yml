@@ -40,7 +40,7 @@ loggers:
   kedro:
     level: INFO
 
-  my_first_kedro_app:
+  iris:
     level: INFO
 
 root:

@@ -1,8 +1,8 @@
-.. my_first_kedro_app documentation master file, created by sphinx-quickstart.
+.. iris documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project my_first_kedro_app's API docs!
+Welcome to project iris's API docs!
 =============================================
 
 .. toctree::
